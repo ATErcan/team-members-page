@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  width: 80%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 18vw);
+  grid-template-rows: repeat(3, 60vh);
+  justify-content: space-evenly;
+}
+.container .content {
+  /* border: 1px solid #f00; */
+  display: grid;
+  grid-template-columns: 90% 10%;
+  grid-template-rows: 80% 20%;
+  margin-bottom: 2vh;
+}
+.container .c1 .img {
+  background-image: url(https://ca.slack-edge.com/T03LBL87DA8-U03M4AGN7V3-4890c72f5c95-512);
+}
+.container .content .img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.container .content .title {
+  display: flex;
+  align-items: center;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 1.2rem;
+}
+.container .content .name {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.container .c2 .img {
+  background-image: url(https://ca.slack-edge.com/T03LBL87DA8-U03MX0ZMZDE-38580d7fc909-512);
+}
+.container .c3 .img {
+  background-image: url(https://ca.slack-edge.com/T03LBL87DA8-U03PCFMJR8S-a0021f88efc8-512);
+}
+.container .c4 .img {
+  background-image: url(https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fhubforjobs.com%2Fwp-content%2Fuploads%2F2022%2F06%2FFull-stack.png);
+}
+.container .c5 .img {
+  background-image: url(https://ca.slack-edge.com/T03LBL87DA8-U03NC7BGRAB-8ca9182a5c2a-512);
+}
+.container .c6 .img {
+  background-image: url(https://avatars.githubusercontent.com/u/94994862?v=4);
+}
+.container .c7 .img {
+  background-image: url(https://ca.slack-edge.com/T03LBL87DA8-U03MX0ZTZGQ-cffa7af04dfd-512);
+}
+.container .c8 .img {
+  background-image: url(https://ca.slack-edge.com/T03LBL87DA8-U03M9L65NDS-79c1c1555d8e-512);
+}
+.container .c9 .img {
+  background-image: url(https://slangmiejski.pl/wp-content/uploads/2021/09/k.jpg);
+}
+/* .container .c2 .img,
+.c5 .img,
+.c8 .img {
+  margin-top: 5vh;
+} */
