@@ -70,8 +70,40 @@
 .container .c9 .img {
   background-image: url(https://slangmiejski.pl/wp-content/uploads/2021/09/k.jpg);
 }
-/* .container .c2 .img,
-.c5 .img,
-.c8 .img {
-  margin-top: 5vh;
-} */
+@media screen and (min-width: 650px) and (max-width: 1300px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 40vw);
+    grid-template-rows: repeat(5, 60vh);
+    justify-content: space-evenly;
+  }
+  .c9 {
+    grid-area: 5 / 1 / 6 / 3;
+    width: 50%;
+    display: flex;
+    justify-self: center;
+  }
+  .header .info {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 650px) {
+  .container {
+    display: grid;
+    grid-template-columns: 80vw;
+    grid-template-rows: repeat(9, 60vh);
+    justify-content: center;
+  }
+  .header .main-title h1 {
+    font-size: 1.5rem;
+  }
+  .header .info {
+    width: 60%;
+  }
+  .header .info h2 {
+    font-size: 1.2rem;
+  }
+  .header .info p {
+    font-size: 0.9rem;
+  }
+}
